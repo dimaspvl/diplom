@@ -1,0 +1,13 @@
+:root {
+    --dark-color: #333333; 
+    --modal-back-color: rgba(51, 51, 51, 0.75);
+    --stroke-dark-color: #8B8B8B;
+    --stroke-light-color: #D4D4D4;
+    --light-color: #FAFAFA;
+    --buttons-color: #FFC702;
+    --main-color: #00CA69;
+    --active-color: #FF5C16;
+    --inverse-color: #A93DFF;
+    --none-color: #ffffff00;
+    --white-color: #ffffff;
+  }

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Exo";
+    src: url(../../font/Exo_2/Exo2-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url(../../font/Exo_2/Exo2-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url(../../font/Exo_2/Exo2-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url(../../font/Exo_2/Exo2-Light.ttf);
+    font-weight: 200;
+}

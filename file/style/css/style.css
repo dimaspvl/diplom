@@ -1,0 +1,827 @@
+@import url(font.css);
+@import url(color.css);
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Exo";
+  box-sizing: border-box;
+  background-color: var(--light-color);
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+h5 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.CaptionL {
+  font-weight: 300;
+}
+
+.BodyM {
+  font-weight: 500;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding-top: 25px;
+  background-color: var(--light-color);
+  z-index: 9999;
+}
+
+nav {
+  width: 57.82%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+nav a {
+  width: 120px;
+  padding: 12px 0;
+  text-align: center;
+  color: var(--stroke-dark-color);
+}
+
+nav h3 {
+  margin: 0;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--dark-color);
+  border-bottom: 2px solid var(--main-color);
+}
+
+section {
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--dark-color);
+}
+
+.conteiner {
+  width: 57.82%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainCard {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  margin-top: 125px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 25px 0 50px 0;
+}
+
+.logo {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.logo h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mainCard h1 {
+  color: var(--light-color);
+}
+
+.mainList {
+  width: 100%;
+  height: fit-content;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mainList button {
+  font-family: "Exo";
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--stroke-light-color);
+  border-radius: 10px;
+  padding: 20px 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--stroke-dark-color);
+  background-color: var(--light-color);
+}
+
+.mainList button:hover {
+  background-color: var(--inverse-color);
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.mainProcess h4:first-child {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.cardProcess {
+  width: 29%;
+  height: 182px;
+  background: var(--dark-color);
+  color: var(--light-color);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.cardProcess .CaptionL {
+  width: 80%;
+  height: 76px;
+}
+
+.number {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.number::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.number h4 {
+  display: inline-block;
+  vertical-align: middle;
+  height: fit-content;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cardDescr {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.aboutTitle {
+  width: 100%;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.aboutTitle h1 {
+  margin: 0;
+}
+
+#about .BodyM {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cardAbout {
+  width: 23.421%;
+  height: 182px;
+  background: var(--light-color);
+  border: 1px solid var(--stroke-light-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cardAbout .svg01 {
+  fill: var(--active-color);
+  stroke: var(--active-color);
+}
+
+.cardAbout .svg02 {
+  stroke: var(--active-color);
+}
+
+.cardAbout:hover {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.cardAbout:hover .svg01 {
+  fill: var(--main-color);
+  stroke: var(--main-color);
+
+}
+
+.cardAbout:hover .svg02 {
+  stroke: var(--main-color);
+
+}
+
+.aboutImg {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.aboutText {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.aboutDescr {
+  text-align: center;
+  font-weight: 500;
+  min-height: 72px;
+}
+
+#about .wrapper {
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutWay {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-color);
+  padding-bottom: 20px;
+}
+
+.storyCard {
+  padding: 0 10px;
+}
+
+.storyLine {
+  padding: 30px 10px 20px 10px;
+}
+
+.storyContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 50px 0;
+}
+
+.year {
+  width: fit-content;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px 20px;
+  color: var(--light-color);
+  text-align: center;
+  align-items: center;
+  background: var(--dark-color);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.green {
+  color: var(--main-color);
+}
+
+.green > .year {
+  background-color: var(--main-color);
+}
+
+.storyTitle {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.storyDescr {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tariffsTitle {
+  width: 100%;
+  background-color: var(--inverse-color);
+  color: var(--light-color);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.tariffsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.tariffsCard {
+  width: 80%;
+  height: fit-content;
+  padding: 0 2.5%;
+  text-align: center;
+}
+
+.tariffsCardTitle {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.tariffsCardTitle span {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.tariffsProperties {
+  display: grid;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tariffsProperties span {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--stroke-light-color);
+}
+
+.tariffsProperties span:last-child {
+  border-bottom: none;
+  padding-bottom: 40px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.tariffsButton {
+  width: 50%;
+  height: fit-content;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--buttons-color);
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.tariffsButton:hover {
+  cursor: pointer;
+  background-color: var(--inverse-color);
+  color: var(--light-color);
+}
+
+.none {
+  color: var(--none-color);
+  background-color: var(--none-color);
+}
+
+.tariffsConstructor {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  text-align: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.tarffsConctructorTitle {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tariffsConstructorContainer {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.tariffsConstructorInput {
+  width: 90%;
+  display: grid;
+  padding: 0 3.5%;
+}
+
+.tariffsConstructorInput span {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.tariffsConstructorInput input {
+  padding: 10px 0;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  text-align: center;
+}
+
+.tariffsConstructorInput input:active {
+  border: none;
+}
+
+.tariffsConstrucrorButton {
+  background-color: var(--main-color);
+  color: var(--light-color);
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
+  padding: 15px 101px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tariffsConstrucrorButton:hover {
+  cursor: pointer;
+  background-color: var(--inverse-color);
+  color: var(--light-color);
+}
+
+.tariffsConstructorLastSpan {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 0 50px 0;
+}
+
+.contactsTitle {
+  width: 100%;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.contactsDescr {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 50px 0;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: var(--dark-color);
+  color: var(--light-color);
+  min-width: 50px;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input-field:focus {
+  border: 1px solid var(--dark-color);
+}
+
+.contactsForm {
+  width: 40%;
+  border: 1px solid var(--dark-color);
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.contactsFormConteiner {
+  padding: 20px;
+}
+
+.contactsFormTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.contactsFormButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: fit-content;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.contactsFormButton {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--stroke-light-color);
+  border-bottom: 1px solid var(--stroke-light-color);
+  text-align: center;
+}
+
+.contactsFormButton:hover {
+  color: var(--active-color);
+  border-bottom: 1px solid var(--active-color);
+  cursor: pointer;
+}
+
+.contactsFormEmail {
+  display: none;
+}
+
+.contactsFormTelegram {
+  display: none;
+}
+
+.active {
+  color: var(--active-color);
+  border-bottom: 1px solid var(--active-color);
+}
+
+.enable {
+  display: inline;
+}
+
+textarea {
+  width: 90%;
+  resize: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Exo";
+  padding: 20px;
+}
+
+.contactsFormButtonSend {
+  width: 92%;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--buttons-color);
+  color: var(--dark-color);
+  border: none;
+}
+
+.contactsFormButtonSend:hover {
+  background-color: var(--inverse-color);
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+#more {
+  padding-bottom: 80px;
+}
+
+.moreTitle {
+  width: 100%;
+  background-color: var(--white-color);
+  color: var(--dark-color);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 20px 50px 20px;
+}
+
+.contacts {
+  padding-bottom: 80px;
+}
+
+.firstLine {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondLine {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thirdLine {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstGreen {
+  width: 33.3%;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  padding-bottom: 30px;
+}
+
+.firstGreen:hover {
+  background-color: var(--active-color);
+}
+
+.secondDark {
+  width: 33.3%;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding-bottom: 30px;
+}
+
+.secondDark:hover {
+  background-color: var(--active-color);
+}
+
+.thirdPurple {
+  width: 33.3%;
+  background-color: var(--inverse-color);
+  color: var(--white-color);
+  padding-bottom: 30px;
+}
+
+.thirdPurple:hover {
+  background-color: var(--active-color);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 20px 51px 20px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 51px;
+}
+
+.button {
+  width: 90%;
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--buttons-color);
+  width: 100%;
+}
+
+footer .conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerMenu {
+  font-size: 20px;
+  font-weight: 500;
+  display: grid;
+  height: fit-content;
+  padding: 30px 0 30px 0;
+}
+
+.footerMenu a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.footerMenu a:hover {
+  color: var(--white-color);
+}
+
+.footerLogo {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  text-align: center;
+}
+
+.footerLogo::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.footerLogo span {
+  display: inline-block;
+  vertical-align: middle;
+}
