@@ -350,9 +350,7 @@ section {
 
 .year {
   width: fit-content;
-  font-size: 25px;
-  font-weight: 700;
-  padding: 5px 20px;
+  padding: 5px 30px;
   color: var(--light-color);
   text-align: center;
   align-items: center;
@@ -370,14 +368,10 @@ section {
 }
 
 .storyTitle {
-  font-size: 25px;
-  font-weight: 700;
   text-align: center;
-  padding-bottom: 10px;
 }
 
 .storyDescr {
-  font-size: 20px;
   font-weight: 500;
   text-align: center;
 }

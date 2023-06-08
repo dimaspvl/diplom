@@ -130,13 +130,13 @@
                     <h3 class="aboutDescr">поддержка клиентов</h3>
                 </div>
             </div>
-            <span class="aboutWay">Наш путь</span>
+            <h2>Наш путь</h2>
             <div class="storyContainer">
                 <div class="storyCard">
                     <div class="storyLine green">
-                        <div class="year">2019</div>
-                        <div class="storyTitle">Начало инновационного пути</div>
-                        <div class="storyDescr">BeatCup была основана талантливыми музыкальными экспертами, объединившимися в стремлении предоставить высококачественные саундтреки для видео и рекламы.</div>
+                        <h2 class="year">2019</h2>
+                        <h2 class="storyTitle">Начало инновационного пути</h2>
+                        <h3 class="storyDescr">BeatCup была основана талантливыми музыкальными экспертами, объединившимися в стремлении предоставить высококачественные саундтреки для видео и рекламы.</h3>
                     </div>
                     <div class="storyLine green">
                         <div class="year">2020</div>
