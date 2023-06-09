@@ -247,15 +247,15 @@
                 <div class="tariffsConstructorContainer">
                     <div class="tariffsConstructorInput">
                         <h3 class="BodyM">Лицензия (кол-во проектов)</h3>
-                        <input type="text" value="4"></input>
+                        <input id="projects" type="text" value="4"></input>
                     </div>
                     <div class="tariffsConstructorInput">
                         <h3 class="BodyM">Кол-во треков для 1 проекта</h3>
-                        <input type="text" value="4"></input>
+                        <input id="tracks" type="text" value="4"></input>
                     </div>
                     <div class="tariffsConstructorInput">
                         <h3 class="BodyM">Цена</h3>
-                        <input type="text" value="28 800₸" readonly></input>
+                        <input id="summa" type="text" value="28 800₸" readonly></input>
                     </div>
                 </div>
                 <button class="tariffsConstrucrorButton">Выбрать</button>
@@ -370,6 +370,7 @@
     </footer>
     <script src="file/js/mainMenu.js"></script>
     <script src="file/js/formTab.js"></script>
+    <script src="file/js/tariff.js"></script>
 </body>
 
 </html>
