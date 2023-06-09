@@ -534,15 +534,11 @@ section {
   width: 100%;
   background-color: var(--dark-color);
   color: var(--light-color);
-  font-size: 30px;
-  font-weight: 700;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .contactsDescr {
-  font-size: 20px;
-  font-weight: 500;
   padding: 50px 0;
 }
 
@@ -575,7 +571,7 @@ section {
 }
 
 .contactsForm {
-  width: 40%;
+  width: fit-content;
   border: 1px solid var(--dark-color);
   border-radius: 20px;
   margin: 0 auto;

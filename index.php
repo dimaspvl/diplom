@@ -264,9 +264,9 @@
         </div>
     </section>
     <section id="contacts">
-        <div class="contactsTitle">Контакты</div>
+        <div class="contactsTitle"><h1>Контакты</h1></div>
         <div class="conteiner contacts">
-            <span class="contactsDescr">BeatCup - компания, осуществляющая удаленную работу с клиентами, используя высокоэффективные средства коммуникации и современные инструменты управления проектами, такие как Jira. Для подачи заявки на сотрудничество или получения дополнительной информации</span>
+            <h3 class="contactsDescr BodyM">BeatCup - компания, осуществляющая удаленную работу с клиентами, используя высокоэффективные средства коммуникации и современные инструменты управления проектами, такие как Jira. Для подачи заявки на сотрудничество или получения дополнительной информации</h3>
             <div class="contactsForm">
                 <div class="contactsFormConteiner">
                     <center><span class="contactsFormTitle">Заявка</span></center>
