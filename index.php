@@ -104,13 +104,13 @@
                 </div>
                 <div class="cardAbout">
                     <div class="aboutImg">
-                        <svg class="svg01"width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M26.3333 13.3334C26.3333 16.463 23.7963 19 20.6667 19C17.5371 19 15 16.463 15 13.3334C15 10.2037 17.5371 7.66669 20.6667 7.66669C23.7963 7.66669 26.3333 10.2037 26.3333 13.3334Z" stroke-width="2" stroke-linecap="round"  fill="none"/>
+                        <svg class="svg01" width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.3333 13.3334C26.3333 16.463 23.7963 19 20.6667 19C17.5371 19 15 16.463 15 13.3334C15 10.2037 17.5371 7.66669 20.6667 7.66669C23.7963 7.66669 26.3333 10.2037 26.3333 13.3334Z" stroke-width="2" stroke-linecap="round" fill="none" />
                             <path d="M25.5359 13C26.0663 12.0813 26.94 11.4109 27.9647 11.1363C28.9894 10.8617 30.0813 11.0055 31 11.5359C31.9187 12.0663 32.5891 12.94 32.8637 13.9647C33.1383 14.9894 32.9945 16.0813 32.4641 17C31.9337 17.9187 31.06 18.5891 30.0353 18.8637C29.0106 19.1383 27.9187 18.9945 27 18.4641C26.0813 17.9337 25.4109 17.06 25.1363 16.0353C24.8617 15.0106 25.0055 13.9187 25.5359 13L25.5359 13Z" stroke-width="2" fill="none" />
                             <path d="M8.86927 13C9.39971 12.0813 10.2734 11.4109 11.2981 11.1363C12.3228 10.8617 13.4146 11.0055 14.3334 11.5359C15.2521 12.0663 15.9225 12.94 16.1971 13.9647C16.4716 14.9894 16.3279 16.0813 15.7975 17C15.267 17.9187 14.3934 18.5891 13.3687 18.8637C12.3439 19.1383 11.2521 18.9945 10.3334 18.4641C9.41464 17.9337 8.74424 17.06 8.46967 16.0353C8.1951 15.0106 8.33884 13.9187 8.86927 13L8.86927 13Z" stroke-width="2" fill="none" />
                             <path d="M28.8027 30L27.8224 30.1974L27.9841 31H28.8027V30ZM35.4281 28.8954L36.3917 28.6282V28.6282L35.4281 28.8954ZM25.3014 24.5175L24.6965 23.7212L23.54 24.5997L24.7733 25.3667L25.3014 24.5175ZM34.5339 29H28.8027V31H34.5339V29ZM34.4645 29.1627C34.461 29.1503 34.4581 29.1249 34.465 29.0938C34.4716 29.0646 34.4842 29.0423 34.4963 29.0277C34.52 28.999 34.5402 29 34.5339 29V31C35.7051 31 36.7529 29.9304 36.3917 28.6282L34.4645 29.1627ZM29 24.3333C30.8361 24.3333 32.0476 25.0945 32.884 26.0591C33.7475 27.0548 34.2212 28.2857 34.4645 29.1627L36.3917 28.6282C36.1095 27.6107 35.5325 26.0605 34.395 24.7487C33.2305 23.4059 31.4906 22.3333 29 22.3333V24.3333ZM25.9062 25.3139C26.6611 24.7405 27.6554 24.3333 29 24.3333V22.3333C27.2115 22.3333 25.7938 22.8878 24.6965 23.7212L25.9062 25.3139ZM24.7733 25.3667C26.7349 26.5867 27.5175 28.6833 27.8224 30.1974L29.783 29.8025C29.4344 28.0713 28.4805 25.3171 25.8295 23.6684L24.7733 25.3667Z" />
                             <path d="M16.032 24.5175L16.5601 25.3667L17.7934 24.5996L16.6368 23.7212L16.032 24.5175ZM5.90525 28.8954L4.94162 28.6282H4.94162L5.90525 28.8954ZM12.5306 30V31H13.3493L13.5109 30.1974L12.5306 30ZM12.3334 24.3333C13.678 24.3333 14.6722 24.7405 15.4271 25.3138L16.6368 23.7212C15.5396 22.8878 14.1219 22.3333 12.3334 22.3333V24.3333ZM6.86887 29.1627C7.11212 28.2857 7.58587 27.0548 8.44934 26.0591C9.28583 25.0945 10.4973 24.3333 12.3334 24.3333V22.3333C9.84277 22.3333 8.10291 23.4059 6.93837 24.7487C5.80083 26.0605 5.22384 27.6106 4.94162 28.6282L6.86887 29.1627ZM6.79944 29C6.7932 29 6.81331 28.999 6.83709 29.0277C6.84916 29.0423 6.86179 29.0646 6.86834 29.0938C6.8753 29.1249 6.87231 29.1503 6.86887 29.1627L4.94162 28.6282C4.58046 29.9304 5.62826 31 6.79944 31V29ZM12.5306 29H6.79944V31H12.5306V29ZM13.5109 30.1974C13.8158 28.6833 14.5984 26.5867 16.5601 25.3667L15.5038 23.6683C12.8528 25.3171 11.899 28.0712 11.5503 29.8025L13.5109 30.1974Z" />
-                            <path d="M20.6667 23.3333C27.2038 23.3333 28.6129 28.4614 28.9166 30.6721C28.9918 31.2192 28.5523 31.6666 28 31.6666H13.3334C12.7811 31.6666 12.3417 31.2192 12.4168 30.6721C12.7205 28.4614 14.1296 23.3333 20.6667 23.3333Z" stroke-width="2" stroke-linecap="round" fill="none"/>
+                            <path d="M20.6667 23.3333C27.2038 23.3333 28.6129 28.4614 28.9166 30.6721C28.9918 31.2192 28.5523 31.6666 28 31.6666H13.3334C12.7811 31.6666 12.3417 31.2192 12.4168 30.6721C12.7205 28.4614 14.1296 23.3333 20.6667 23.3333Z" stroke-width="2" stroke-linecap="round" fill="none" />
                         </svg>
                     </div>
                     <h1>10+ лет</h1>
@@ -121,7 +121,7 @@
                         <svg class="svg01" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="26.6667" y="20" width="6.66667" height="11.6667" rx="3" stroke-width="2" stroke-linejoin="round" />
                             <rect x="6.66669" y="20" width="6.66667" height="11.6667" rx="3" stroke-width="2" stroke-linejoin="round" />
-                            <path d="M6.66669 21.6667V26.6667"  fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.66669 21.6667V26.6667" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M33.3333 21.6667V26.6667" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M33.3334 21.6667C33.3334 17.6884 31.9286 13.8731 29.4281 11.0601C26.9276 8.24704 23.5362 6.66669 20 6.66669C16.4638 6.66668 13.0724 8.24704 10.5719 11.0601C8.07145 13.8731 6.66669 17.6884 6.66669 21.6667" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
@@ -160,73 +160,107 @@
         </div>
     </section>
     <section id="tariffs">
-        <div class="tariffsTitle">Тарифы</div>
+        <div class="tariffsTitle">
+            <h1>Тарифы</h1>
+        </div>
         <div class="conteiner">
             <div class="tariffsContainer">
                 <div class="tariffsCard">
-                    <div class="tariffsCardTitle none">
-                        <span class="none">Свойства</span>
-                    </div>
-                    <div class="tariffsProperties label">
-                        <span>Уникальных треков</span>
-                        <span>Лицензия</span>
-                        <span>Цена</span>
+                    <div>
+                        <div class="tariffsCardTitle none">
+                            <h3 class="none">Свойства</h3>
+                        </div>
+                        <div class="tariffsProperties">
+                            <div>
+                                <h3>Уникальных треков</h3>
+                            </div>
+                            <div>
+                                <h3>Лицензия</h3>
+                            </div>
+                            <div>
+                                <h3>Цена</h3>
+                            </div>
+                        </div>
                     </div>
                     <button class="tariffsButton none">Выбрать</button>
                 </div>
                 <div class="tariffsCard">
-                    <div class="tariffsCardTitle">
-                        <span>Базовый</span>
-                    </div>
-                    <div class="tariffsProperties">
-                        <span>5</span>
-                        <span>на 1 проект</span>
-                        <span>10 000₸</span>
-                    </div>
-                    <button class="tariffsButton">Выбрать</button>
-                </div>
-                <div class="tariffsCard">
-                    <div class="tariffsCardTitle">
-                        <span>Продвинутый<span>
-                    </div>
-                    <div class="tariffsProperties">
-                        <span>10</span>
-                        <span>на 3 проект</span>
-                        <span>18 000₸</span>
+                    <div>
+                        <div class="tariffsCardTitle">
+                            <h3>Базовый</h3>
+                        </div>
+                        <div class="tariffsProperties">
+                            <div>
+                                <h3 class="BodyM">5</h3>
+                            </div>
+                            <div>
+                                <h3 class="BodyM">на 1 проект</h3>
+                            </div>
+                            <div>
+                                <h3 class="BodyM">10 000₸</h3>
+                            </div>
+                        </div>
                     </div>
                     <button class="tariffsButton">Выбрать</button>
                 </div>
                 <div class="tariffsCard">
-                    <div class="tariffsCardTitle">
-                        <span>Премиум</span>
+                    <div>
+                        <div class="tariffsCardTitle">
+                            <h3>Продвинутый</h3>
+                        </div>
+                        <div class="tariffsProperties">
+                            <div>
+                                <h3 class="BodyM">10</h3>
+                            </div>
+                            <div>
+                                <h3 class="BodyM">на 3 проект</h3>
+                            </div>
+                            <div>
+                                <h3 class="BodyM">18 000₸</h3>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tariffsProperties">
-                        <span>15</span>
-                        <span>на 5 проект</span>
-                        <span>25 000₸</span>
+                    <button class="tariffsButton">Выбрать</button>
+                </div>
+                <div class="tariffsCard">
+                    <div>
+                        <div class="tariffsCardTitle">
+                            <h3>Премиум</h3>
+                        </div>
+                        <div class="tariffsProperties">
+                            <div>
+                                <h3 class="BodyM">15</h3>
+                            </div>
+                            <div>
+                                <h3 class="BodyM">на 5 проект</h3>
+                            </div>
+                            <div>
+                                <h3 class="BodyM">25 000₸</h3>
+                            </div>
+                        </div>
                     </div>
                     <button class="tariffsButton">Выбрать</button>
                 </div>
             </div>
             <div class="tariffsConstructor">
-                <span class="tarffsConctructorTitle">Собери свой тариф</span>
+                <h1>Собери свой тариф</h1>
                 <div class="tariffsConstructorContainer">
                     <div class="tariffsConstructorInput">
-                        <span>Лицензия (кол-во проектов)</span>
+                        <h3 class="BodyM">Лицензия (кол-во проектов)</h3>
                         <input type="text" value="4"></input>
                     </div>
                     <div class="tariffsConstructorInput">
-                        <span>Кол-во треков для 1 проекта</span>
+                        <h3 class="BodyM">Кол-во треков для 1 проекта</h3>
                         <input type="text" value="4"></input>
                     </div>
                     <div class="tariffsConstructorInput">
-                        <span>Цена</span>
+                        <h3 class="BodyM">Цена</h3>
                         <input type="text" value="28 800₸" readonly></input>
                     </div>
                 </div>
                 <button class="tariffsConstrucrorButton">Выбрать</button>
             </div>
-            <span class="tariffsConstructorLastSpan">*Кроме базовых цен, стоимость может быть подвержена изменениям в зависимости от сложности проекта. Мы понимаем, что каждый проект уникален и может требовать дополнительных усилий и ресурсов. Поэтому, если ваш проект имеет особые требования или высокую степень сложности, мы готовы рассмотреть индивидуальный подход к ценообразованию. Свяжитесь с нами для получения подробной консультации и индивидуального расчета стоимости вашего проекта.</span>
+            <h3 class="BodyM paddingh3">*Кроме базовых цен, стоимость может быть подвержена изменениям в зависимости от сложности проекта. Мы понимаем, что каждый проект уникален и может требовать дополнительных усилий и ресурсов. Поэтому, если ваш проект имеет особые требования или высокую степень сложности, мы готовы рассмотреть индивидуальный подход к ценообразованию. Свяжитесь с нами для получения подробной консультации и индивидуального расчета стоимости вашего проекта.</h3>
         </div>
     </section>
     <section id="contacts">

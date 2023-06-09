@@ -375,7 +375,7 @@ section {
 .storyTitle {
   text-align: center;
   width: 100%;
-  min-height: 50px;
+  min-height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -391,13 +391,13 @@ section {
   width: 100%;
   background-color: var(--inverse-color);
   color: var(--light-color);
-  font-size: 30px;
-  font-weight: 700;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .tariffsContainer {
+  width: 100%;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -405,10 +405,12 @@ section {
 }
 
 .tariffsCard {
-  width: 80%;
-  height: fit-content;
-  padding: 0 2.5%;
+  min-width: 20%;
+  min-height: 244px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tariffsCardTitle {
@@ -420,35 +422,19 @@ section {
   margin: 0 auto;
   display: flex;
   align-items: center;
-}
-
-.tariffsCardTitle span {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 auto;
+  justify-content: center;
   padding: 10px 0;
 }
 
 .tariffsProperties {
-  display: grid;
-  font-size: 20px;
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.tariffsProperties span {
-  padding: 20px 0;
+.tariffsProperties div {
+  padding: 10px;
   border-bottom: 1px solid var(--stroke-light-color);
-}
-
-.tariffsProperties span:last-child {
-  border-bottom: none;
-  padding-bottom: 40px;
-}
-
-.label {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: left;
 }
 
 .tariffsButton {
@@ -458,7 +444,7 @@ section {
   font-weight: 700;
   background-color: var(--buttons-color);
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 0;
   border-radius: 5px;
   border: none;
 }
@@ -469,39 +455,40 @@ section {
   color: var(--light-color);
 }
 
-.none {
+.none,
+.none:hover {
   color: var(--none-color);
   background-color: var(--none-color);
+  cursor: auto;
 }
 
 .tariffsConstructor {
   width: 100%;
-  height: fit-content;
+  min-height: 308px;
   background-color: var(--main-color);
   color: var(--light-color);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  padding: 30px 0;
-}
-
-.tarffsConctructorTitle {
-  font-size: 30px;
-  font-weight: 700;
 }
 
 .tariffsConstructorContainer {
-  width: auto;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
+  width: 92.8%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .tariffsConstructorInput {
-  width: 90%;
-  display: grid;
-  padding: 0 3.5%;
+  width: 26.3%;
+  min-height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tariffsConstructorInput span {
@@ -521,16 +508,12 @@ section {
   text-align: center;
 }
 
-.tariffsConstructorInput input:active {
-  border: none;
-}
-
 .tariffsConstrucrorButton {
   background-color: var(--main-color);
   color: var(--light-color);
   border: 1px solid var(--light-color);
   border-radius: 5px;
-  padding: 15px 101px;
+  padding: 15px 8%;
   text-align: center;
   cursor: pointer;
   font-size: 20px;
@@ -543,9 +526,7 @@ section {
   color: var(--light-color);
 }
 
-.tariffsConstructorLastSpan {
-  font-size: 20px;
-  font-weight: 500;
+.paddingh3{
   padding: 30px 0 50px 0;
 }
 
