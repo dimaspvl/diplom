@@ -264,7 +264,9 @@
         </div>
     </section>
     <section id="contacts">
-        <div class="contactsTitle"><h1>Контакты</h1></div>
+        <div class="contactsTitle">
+            <h1>Контакты</h1>
+        </div>
         <div class="conteiner contacts">
             <h3 class="contactsDescr BodyM">BeatCup - компания, осуществляющая удаленную работу с клиентами, используя высокоэффективные средства коммуникации и современные инструменты управления проектами, такие как Jira. Для подачи заявки на сотрудничество или получения дополнительной информации</h3>
             <div class="contactsForm">
@@ -282,7 +284,7 @@
                             </div>
                             <input class="input-field" type="text" placeholder="example@gmail.com" name="email">
                         </div>
-                        </div>
+                    </div>
                     <div class="contactsFormTelegram">
                         <div class="input-container">
                             <div class="icon"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -291,11 +293,13 @@
                             </div>
                             <input class="input-field" type="text" placeholder="@example123" name="telegram">
                         </div>
-                        </div>
-                        <textarea name="message" id="contactsFormMessageEmail" cols="30" rows="3" placeholder="Опишите ваше предложение..."></textarea>
-                    
+                    </div>
+                    <textarea name="message" id="contactsFormMessageEmail" cols="30" rows="3" placeholder="Опишите ваше предложение..."></textarea>
+
                 </div>
-                <center style="padding-bottom: 20px;"><button class="contactsFormButtonSend">Отправить</button></center>
+                <div class="contactsFormButtonConteiner">
+                    <button class="contactsFormButtonSend">Отправить</button>
+                </div>
             </div>
         </div>
     </section>

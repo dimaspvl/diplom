@@ -640,6 +640,13 @@ textarea {
   padding: 20px;
 }
 
+.contactsFormButtonConteiner{
+width: 100%;
+display: flex;
+padding-bottom: 20px;
+
+}
+
 .contactsFormButtonSend {
   width: 92%;
   padding: 10px 0;
@@ -648,6 +655,7 @@ textarea {
   background-color: var(--buttons-color);
   color: var(--dark-color);
   border: none;
+  margin: 0 auto;
 }
 
 .contactsFormButtonSend:hover {
