@@ -304,71 +304,84 @@
         </div>
     </section>
     <section id="more">
-        <div class="moreTitle">Продукты</div>
-        <div class="conteiner">
-            <div class="firstLine">
-                <div class="firstGreen">
-                    <div class="title">Музыкальные альбомы различных жанров.</div>
-                    <div class="price">20 000₸</div>
-                    <button class="button">Купить</button>
+        <div class="moreTitle">
+            <h1>Продукты</h1>
+        </div>
+        <div class="productBlock">
+            <div class="productContainer">
+                <div class="ProductList productGreen">
+                    <h3>Музыкальные альбомы различных жанров.</h3>
+                    <h1>20 000₸</h1>
+                    <button>Купить</button>
                 </div>
-                <div class="secondDark">
-                    <div class="title">Звуковые эффекты для аудио и видеопроектов.</div>
-                    <div class="price">12 000₸</div>
-                    <div class="button">Купить</div>
+                <div class="ProductList productDark">
+                    <h3>Звуковые эффекты для аудио и видеопроектов.</h3>
+                    <h1>12 000₸</h1>
+                    <button>Купить</button>
                 </div>
-                <div class="thirdPurple">
-                    <div class="title">Музыкальные лупы и сэмплы для продюсеров.</div>
-                    <div class="price">15 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-            </div>
-            <div class="secondLine">
-                <div class="firstGreen">
-                    <div class="title">Роялти-фри музыкальные коллекции</div>
-                    <div class="price">25 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="secondDark">
-                    <div class="title">Оригинальные ремиксы популярных треков.</div>
-                    <div class="price">18 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="thirdPurple">
-                    <div class="title">Индивидуальные музыкальные заказы</div>
-                    <div class="price">22 000₸</div>
-                    <div class="button">Купить</div>
+                <div class="ProductList productPurple">
+                    <h3>Музыкальные лупы и сэмплы для продюсеров.</h3>
+                    <h1>15 000₸</h1>
+                    <button>Купить</button>
                 </div>
             </div>
-            <div class="thirdLine">
-                <div class="firstGreen">
-                    <div class="title">Музыкальное сопровождение для игр и приложений</div>
-                    <div class="price">30 000₸</div>
-                    <div class="button">Купить</div>
+            <div class="productContainer">
+                <div class="ProductList productGreen">
+                    <h3>Музыкальные лупы и сэмплы для продюсеров.</h3>
+                    <h1>25 000₸</h1>
+                    <button>Купить</button>
                 </div>
-                <div class="secondDark">
-                    <div class="title">Рекорд-лейбл для молодых и талантливых музыкантов</div>
-                    <div class="price">15 000₸</div>
-                    <div class="button">Купить</div>
+                <div class="ProductList productDark">
+                    <h3>Оригинальные ремиксы популярных треков.</h3>
+                    <h1>18 000₸</h1>
+                    <button>Купить</button>
                 </div>
-                <div class="thirdPurple">
-                    <div class="title">Услуги звукорежиссуры и сведения треков</div>
-                    <div class="price">20 000₸</div>
-                    <div class="button">Купить</div>
+                <div class="ProductList productPurple">
+                    <h3>Индивидуальные музыкальные заказы</h3>
+                    <h1>22 000₸</h1>
+                    <button>Купить</button>
                 </div>
             </div>
+            <div class="productContainer">
+                <div class="ProductList productGreen">
+                    <h3>Музыкальное сопровождение для игр и приложений</h3>
+                    <h1>30 000₸</h1>
+                    <button>Купить</button>
+                </div>
+                <div class="ProductList productDark">
+                    <h3>Рекорд-лейбл для молодых и талантливых музыкантов</h3>
+                    <h1>15 000₸</h1>
+                    <button>Купить</button>
+                </div>
+                <div class="ProductList productPurple">
+                    <h3>Услуги звукорежиссуры и сведения треков</h3>
+                    <h1>20 000₸</h1>
+                    <button>Купить</button>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
     <footer>
         <div class="conteiner">
             <div class="footerMenu">
-                <a href="#home">Главная</a>
-                <a href="#about">Стратегия</a>
-                <a href="#tariffs">Тарифы</a>
-                <a href="#contacts">Контакты</a>
+                <a href="#home">
+                    <h3 class="BodyM">Главная</h3>
+                </a>
+                <a href="#about">
+                    <h3 class="BodyM">Стратегия</h3>
+                </a>
+                <a href="#tariffs">
+                    <h3 class="BodyM">Тарифы</h3>
+                </a>
+                <a href="#contacts">
+                    <h3 class="BodyM">Контакты</h3>
+                </a>
             </div>
             <div class="footerLogo">
-                <span>BeatCup</span>
+                <h4>BeatCup</h4>
             </div>
         </div>
     </footer>
