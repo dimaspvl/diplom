@@ -269,7 +269,7 @@
             <h3 class="contactsDescr BodyM">BeatCup - компания, осуществляющая удаленную работу с клиентами, используя высокоэффективные средства коммуникации и современные инструменты управления проектами, такие как Jira. Для подачи заявки на сотрудничество или получения дополнительной информации</h3>
             <div class="contactsForm">
                 <div class="contactsFormConteiner">
-                    <center><span class="contactsFormTitle">Заявка</span></center>
+                    <h3 class="BodyM">Заявка</h3>
                     <div class="contactsFormButtons">
                         <div class="contactsFormButton active">Почта</div>
                         <div class="contactsFormButton">Телеграмм</div>
@@ -280,20 +280,20 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.752394 5.14529C0.75 5.48754 0.75 5.85498 0.75 6.25V11.75C0.75 14.5784 0.75 15.9926 1.62868 16.8713C2.50736 17.75 3.92157 17.75 6.75 17.75H17.25C20.0784 17.75 21.4926 17.75 22.3713 16.8713C23.25 15.9926 23.25 14.5784 23.25 11.75V6.25C23.25 5.85498 23.25 5.48754 23.2476 5.14529L12.9713 10.8544C12.3672 11.1899 11.6328 11.1899 11.0287 10.8544L0.752394 5.14529ZM0.853678 3.00513C0.984025 3.01865 1.11384 3.05818 1.23564 3.12584L12 9.10604L22.7644 3.12584C22.8862 3.05818 23.016 3.01866 23.1463 3.00514C23.0386 2.16313 22.819 1.57639 22.3713 1.12868C21.4926 0.25 20.0784 0.25 17.25 0.25H6.75C3.92157 0.25 2.50736 0.25 1.62868 1.12868C1.18097 1.57639 0.961382 2.16313 0.853678 3.00513Z" fill="#FAFAFA" />
                                 </svg>
                             </div>
-                            <input class="input-field" type="text" placeholder="" name="email" value="example@gmail.com">
+                            <input class="input-field" type="text" placeholder="example@gmail.com" name="email">
                         </div>
-                        <textarea name="message" id="contactsFormMessageEmail" cols="30" rows="5" placeholder="Опишите ваше предложение..."></textarea>
-                    </div>
+                        </div>
                     <div class="contactsFormTelegram">
                         <div class="input-container">
                             <div class="icon"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68941 10.8965L4.19217 9.39737C1.83896 8.61297 0.662354 8.22076 0.662354 7.5C0.662354 6.77925 1.83896 6.38704 4.19218 5.60264L17.2053 1.26491C18.8611 0.712985 19.689 0.437021 20.126 0.874037C20.5631 1.31105 20.2871 2.13895 19.7352 3.79474L15.3974 16.8079L15.3974 16.8079C14.613 19.1611 14.2208 20.3377 13.5001 20.3377C12.7793 20.3377 12.3871 19.1611 11.6027 16.8079L10.1036 12.3107L15.4572 6.95711C15.8477 6.56659 15.8477 5.93342 15.4572 5.5429C15.0667 5.15237 14.4335 5.15237 14.043 5.5429L8.68941 10.8965Z" fill="#FAFAFA" />
                                 </svg>
                             </div>
-                            <input class="input-field" type="text" placeholder="" name="telegram" value="@example123">
+                            <input class="input-field" type="text" placeholder="@example123" name="telegram">
                         </div>
-                        <textarea name="message" id="contactsFormMessageEmail" cols="30" rows="5" placeholder="Опишите ваше предложение..."></textarea>
-                    </div>
+                        </div>
+                        <textarea name="message" id="contactsFormMessageEmail" cols="30" rows="3" placeholder="Опишите ваше предложение..."></textarea>
+                    
                 </div>
                 <center style="padding-bottom: 20px;"><button class="contactsFormButtonSend">Отправить</button></center>
             </div>

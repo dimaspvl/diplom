@@ -229,6 +229,7 @@ section {
   display: inline-block;
   vertical-align: middle;
   height: fit-content;
+  padding-right: 3px;
 }
 
 .cardTitle {
@@ -476,11 +477,11 @@ section {
 
 .tariffsConstructorContainer {
   width: 92.8%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .tariffsConstructorInput {
@@ -526,7 +527,7 @@ section {
   color: var(--light-color);
 }
 
-.paddingh3{
+.paddingh3 {
   padding: 30px 0 50px 0;
 }
 
@@ -545,28 +546,27 @@ section {
 .input-container {
   display: flex;
   width: 100%;
-  margin-bottom: 15px;
 }
 
 .icon {
-  padding: 10px;
   background: var(--dark-color);
   color: var(--light-color);
   min-width: 50px;
+  min-height: 50px;
   text-align: center;
   border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .input-field {
   width: 100%;
   padding: 10px;
-  outline: none;
   border-radius: 0 10px 10px 0;
   font-size: 20px;
   font-weight: 500;
-}
-
-.input-field:focus {
   border: 1px solid var(--dark-color);
 }
 
@@ -578,13 +578,12 @@ section {
 }
 
 .contactsFormConteiner {
+  min-height: 298px;
   padding: 20px;
-}
-
-.contactsFormTitle {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contactsFormButtons {
@@ -593,7 +592,6 @@ section {
   justify-content: space-evenly;
   align-items: center;
   height: fit-content;
-  padding: 20px 0;
   cursor: pointer;
 }
 
@@ -613,10 +611,13 @@ section {
 }
 
 .contactsFormEmail {
+  width: 100%;
   display: none;
+
 }
 
 .contactsFormTelegram {
+  width: 100%;
   display: none;
 }
 
