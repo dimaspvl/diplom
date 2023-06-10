@@ -359,9 +359,6 @@
                     <button>Купить</button>
                 </div>
             </div>
-
-
-
         </div>
     </section>
     <footer>

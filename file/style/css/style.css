@@ -233,21 +233,6 @@ section {
   padding-right: 3px;
 }
 
-.cardTitle {
-  font-size: 16px;
-  font-weight: 700;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.cardDescr {
-  font-size: 16px;
-  font-weight: 300;
-  text-align: center;
-  padding-right: 10%;
-  padding-left: 10%;
-}
-
 .aboutTitle {
   width: 100%;
   background-color: var(--main-color);
@@ -306,11 +291,6 @@ section {
   margin: 0 auto;
 }
 
-.aboutText {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
 .aboutDescr {
   text-align: center;
   font-weight: 500;
@@ -322,12 +302,6 @@ section {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.aboutWay {
-  text-align: center;
-  color: var(--dark-color);
-  padding-bottom: 20px;
 }
 
 .storyCard {
@@ -491,12 +465,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.tariffsConstructorInput span {
-  font-size: 20px;
-  font-weight: 500;
-  padding-bottom: 10px;
 }
 
 .tariffsConstructorInput input {
