@@ -663,45 +663,27 @@ textarea {
   width: 100%;
   background-color: var(--white-color);
   color: var(--dark-color);
-  font-size: 30px;
-  font-weight: 700;
   text-align: center;
-  padding: 20px 20px 50px 20px;
+  padding: 20px 0 50px 0;
+}
+
+.prodactConteiner {
+width: 100%;
+height: fit-content;
+display: flex;
 }
 
 .contacts {
   padding-bottom: 80px;
 }
 
-.firstLine {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.secondLine {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.thirdLine {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.firstGreen {
+.productCard {
   width: 33.3%;
+}
+
+.greenCard{
   background-color: var(--main-color);
   color: var(--white-color);
-  padding-bottom: 30px;
 }
 
 .firstGreen:hover {

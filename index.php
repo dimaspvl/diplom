@@ -264,7 +264,9 @@
         </div>
     </section>
     <section id="contacts">
-        <div class="contactsTitle"><h1>Контакты</h1></div>
+        <div class="contactsTitle">
+            <h1>Контакты</h1>
+        </div>
         <div class="conteiner contacts">
             <h3 class="contactsDescr BodyM">BeatCup - компания, осуществляющая удаленную работу с клиентами, используя высокоэффективные средства коммуникации и современные инструменты управления проектами, такие как Jira. Для подачи заявки на сотрудничество или получения дополнительной информации</h3>
             <div class="contactsForm">
@@ -300,58 +302,14 @@
         </div>
     </section>
     <section id="more">
-        <div class="moreTitle">Продукты</div>
-        <div class="conteiner">
-            <div class="firstLine">
-                <div class="firstGreen">
-                    <div class="title">Музыкальные альбомы различных жанров.</div>
-                    <div class="price">20 000₸</div>
-                    <button class="button">Купить</button>
-                </div>
-                <div class="secondDark">
-                    <div class="title">Звуковые эффекты для аудио и видеопроектов.</div>
-                    <div class="price">12 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="thirdPurple">
-                    <div class="title">Музыкальные лупы и сэмплы для продюсеров.</div>
-                    <div class="price">15 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-            </div>
-            <div class="secondLine">
-                <div class="firstGreen">
-                    <div class="title">Роялти-фри музыкальные коллекции</div>
-                    <div class="price">25 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="secondDark">
-                    <div class="title">Оригинальные ремиксы популярных треков.</div>
-                    <div class="price">18 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="thirdPurple">
-                    <div class="title">Индивидуальные музыкальные заказы</div>
-                    <div class="price">22 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-            </div>
-            <div class="thirdLine">
-                <div class="firstGreen">
-                    <div class="title">Музыкальное сопровождение для игр и приложений</div>
-                    <div class="price">30 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="secondDark">
-                    <div class="title">Рекорд-лейбл для молодых и талантливых музыкантов</div>
-                    <div class="price">15 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
-                <div class="thirdPurple">
-                    <div class="title">Услуги звукорежиссуры и сведения треков</div>
-                    <div class="price">20 000₸</div>
-                    <div class="button">Купить</div>
-                </div>
+        <div class="moreTitle">
+            <h1>Продукты</h1>
+        </div>
+        <div class="conteiner prodactConteiner">
+            <div class="productCard greenCard">
+                <h3>Музыкальные альбомы различных жанров.</h3>
+                <h1>20 000₸</h1>
+                <button class="button">Купить</button>
             </div>
         </div>
     </section>
