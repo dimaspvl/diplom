@@ -614,11 +614,13 @@ section {
 .contactsFormEmail {
   width: 100%;
   display: none;
+  opacity: 0;
 }
 
 .contactsFormTelegram {
   width: 100%;
   display: none;
+  opacity: 0;
 }
 
 .active {
@@ -627,7 +629,8 @@ section {
 }
 
 .enable {
-  display: inline;
+  display: block !important;
+  opacity: 1 !important;
 }
 
 textarea {
